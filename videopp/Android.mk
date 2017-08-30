@@ -1,4 +1,4 @@
-ifeq ($(THIS_SHOULDNT_BE_HERE),true
+ifeq ($(THIS_SHOULDNT_BE_HERE),true)
 ifneq ($(BUILD_TINY_ANDROID),true)
 
 ROOT_DIR := $(call my-dir)
